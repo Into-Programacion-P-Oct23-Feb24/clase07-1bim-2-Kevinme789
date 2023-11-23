@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+  Se declara variables y se les asigna un valor, dentro del ciclo repetitivo
+  la variable resultado sera igual a "resultado" que comenzara con un valor de 1
+  y se lo multiplicara con la variable "numero" que tiene un valor inicial de 4
+  En la linea 34 el contador aumentara 1 cada vez que pase por el ciclo repetitivo
+  Al final este codigo multiplicara el numero por si mismo las veces que sea 
+  necesario hasta que el contador sea mayor que el valor de la potencia
+
  */
 package ejemplos01;
 

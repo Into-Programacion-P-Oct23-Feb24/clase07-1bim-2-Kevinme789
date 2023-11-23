@@ -51,6 +51,8 @@ public class Ejemplo09 {
         } while (bandera); // (bandera==true)
 
         // promedio = suma / contador_calificaciones;
+        // Se realiza el (double) porque suma es un valor entero y se busca como
+        // resultado un valor decimal
         promedio = (double) suma / contador_calificaciones;
         cadenaFinal = String.format("%s\nPromedio de calificaciones: %.2f",
                 cadenaFinal,
